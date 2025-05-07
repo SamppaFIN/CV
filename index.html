@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <meta name="description" content="Professional CV and portfolio showcasing skills and experience">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header glass-panel">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" data-i18n="name">John Doe</div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                        <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+                        <li><a href="#history" data-i18n="nav.history">Experience</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="toggle-container">
+                    <button id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="langToggle" aria-label="Toggle language">
+                        <span>EN</span>
+                    </button>
+                </div>
+                <button id="menuBtn" class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-menu glass-panel" id="mobileMenu">
+            <nav>
+                <ul>
+                    <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                    <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+                    <li><a href="#history" data-i18n="nav.history">Experience</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="highlight-text" data-i18n="hero.name">John Doe</h1>
+                <h2 class="slogan" data-i18n="hero.slogan">Innovative Web Developer & Designer</h2>
+                <p class="hero-description" data-i18n="hero.description">
+                    Creating elegant, responsive and interactive web experiences
+                </p>
+                <a href="#contact" class="cta-button" data-i18n="hero.cta">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Main Content with Sidebar Layout -->
+        <div class="container main-container">
+            <!-- Sidebar with Personal Info -->
+            <aside class="sidebar glass-panel">
+                <div class="profile-info">
+                    <div class="profile-image">
+                        <!-- Using FontAwesome for profile avatar -->
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3 data-i18n="sidebar.personalInfo">Personal Information</h3>
+                    <ul class="personal-details">
+                        <li>
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-i18n="sidebar.birthdate">January 1, 1990</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="sidebar.location">Helsinki, Finland</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span data-i18n="sidebar.email">john.doe@example.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span data-i18n="sidebar.phone">+358 12 345 6789</span>
+                        </li>
+                    </ul>
+                    
+                    <h3 data-i18n="sidebar.languages">Languages</h3>
+                    <div class="language-skills">
+                        <div class="language">
+                            <span data-i18n="sidebar.english">English</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <span data-i18n="sidebar.finnish">Finnish</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="language">
+                            <span data-i18n="sidebar.swedish">Swedish</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 data-i18n="sidebar.hobbies">Hobbies & Interests</h3>
+                    <div class="hobbies">
+                        <span><i class="fas fa-hiking"></i> <span data-i18n="sidebar.hiking">Hiking</span></span>
+                        <span><i class="fas fa-book"></i> <span data-i18n="sidebar.reading">Reading</span></span>
+                        <span><i class="fas fa-code"></i> <span data-i18n="sidebar.coding">Coding</span></span>
+                        <span><i class="fas fa-chess"></i> <span data-i18n="sidebar.chess">Chess</span></span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content Sections -->
+            <div class="content-sections">
+                <!-- About Section -->
+                <section id="about" class="section glass-panel fade-in-section">
+                    <h2 class="section-title" data-i18n="about.title">About Me</h2>
+                    <div class="section-content">
+                        <p data-i18n="about.description">
+                            I am a passionate web developer with over 5 years of experience creating beautiful, 
+                            responsive and user-friendly websites. My approach combines technical expertise with 
+                            creative problem-solving to deliver exceptional digital experiences.
+                        </p>
+                        <p data-i18n="about.description2">
+                            With a background in both front-end and back-end development, I enjoy taking on 
+                            complex challenges and turning them into elegant solutions. I'm constantly learning 
+                            and exploring new technologies to stay at the forefront of web development.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section id="skills" class="section glass-panel fade-in-section">
+                    <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+                    <div class="section-content">
+                        <div class="skills-container">
+                            <div class="skill-category">
+                                <h3 data-i18n="skills.frontend">Frontend Development</h3>
+                                <div class="skills-list">
+                                    <div class="skill-item">
+                                        <span>HTML5</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>CSS3/SASS</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>JavaScript</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>React</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h3 data-i18n="skills.backend">Backend Development</h3>
+                                <div class="skills-list">
+                                    <div class="skill-item">
+                                        <span>Node.js</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>Python</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>SQL</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h3 data-i18n="skills.tools">Tools & Technologies</h3>
+                                <div class="skills-list">
+                                    <div class="skill-item">
+                                        <span>Git</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>Docker</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <span>Figma</span>
+                                        <div class="progress-bar">
+                                            <div class="progress" style="width: 70%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Portfolio Section -->
+                <section id="portfolio" class="section glass-panel fade-in-section">
+                    <h2 class="section-title" data-i18n="portfolio.title">Portfolio</h2>
+                    <div class="section-content">
+                        <div class="portfolio-grid">
+                            <div class="portfolio-item">
+                                <div class="portfolio-content">
+                                    <h3 data-i18n="portfolio.project1.title">E-commerce Platform</h3>
+                                    <p data-i18n="portfolio.project1.description">
+                                        A full-featured e-commerce solution with responsive design, 
+                                        payment integration and inventory management.
+                                    </p>
+                                    <div class="portfolio-tech">
+                                        <span>React</span>
+                                        <span>Node.js</span>
+                                        <span>MongoDB</span>
+                                    </div>
+                                    <a href="#" class="portfolio-link" data-i18n="portfolio.viewProject">View Project</a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="portfolio-content">
+                                    <h3 data-i18n="portfolio.project2.title">Travel Blog</h3>
+                                    <p data-i18n="portfolio.project2.description">
+                                        A modern travel blog with interactive maps, photo galleries 
+                                        and multilingual support.
+                                    </p>
+                                    <div class="portfolio-tech">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <a href="#" class="portfolio-link" data-i18n="portfolio.viewProject">View Project</a>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="portfolio-content">
+                                    <h3 data-i18n="portfolio.project3.title">Task Management App</h3>
+                                    <p data-i18n="portfolio.project3.description">
+                                        A productivity application with drag-and-drop interface, 
+                                        notifications and collaborative features.
+                                    </p>
+                                    <div class="portfolio-tech">
+                                        <span>Vue.js</span>
+                                        <span>Firebase</span>
+                                        <span>PWA</span>
+                                    </div>
+                                    <a href="#" class="portfolio-link" data-i18n="portfolio.viewProject">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Work History Section -->
+                <section id="history" class="section glass-panel fade-in-section">
+                    <h2 class="section-title" data-i18n="history.title">Work Experience</h2>
+                    <div class="section-content">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="history.job1.title">Senior Frontend Developer</h3>
+                                    <p class="timeline-company" data-i18n="history.job1.company">Tech Innovations Ltd</p>
+                                    <p class="timeline-period" data-i18n="history.job1.period">2020 - Present</p>
+                                    <ul class="timeline-details">
+                                        <li data-i18n="history.job1.detail1">
+                                            Led the frontend development team for multiple high-profile client projects
+                                        </li>
+                                        <li data-i18n="history.job1.detail2">
+                                            Implemented modern UI/UX practices and design systems
+                                        </li>
+                                        <li data-i18n="history.job1.detail3">
+                                            Optimized application performance and accessibility
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="history.job2.title">Web Developer</h3>
+                                    <p class="timeline-company" data-i18n="history.job2.company">Digital Solutions Inc</p>
+                                    <p class="timeline-period" data-i18n="history.job2.period">2017 - 2020</p>
+                                    <ul class="timeline-details">
+                                        <li data-i18n="history.job2.detail1">
+                                            Developed responsive websites for various clients across industries
+                                        </li>
+                                        <li data-i18n="history.job2.detail2">
+                                            Created custom CMS solutions and e-commerce platforms
+                                        </li>
+                                        <li data-i18n="history.job2.detail3">
+                                            Collaborated with design team to implement pixel-perfect interfaces
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="history.job3.title">Junior Developer</h3>
+                                    <p class="timeline-company" data-i18n="history.job3.company">Webcraft Studio</p>
+                                    <p class="timeline-period" data-i18n="history.job3.period">2015 - 2017</p>
+                                    <ul class="timeline-details">
+                                        <li data-i18n="history.job3.detail1">
+                                            Assisted in developing website frontend components
+                                        </li>
+                                        <li data-i18n="history.job3.detail2">
+                                            Implemented responsive designs and cross-browser compatibility
+                                        </li>
+                                        <li data-i18n="history.job3.detail3">
+                                            Participated in code reviews and agile development processes
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer glass-panel">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h2 data-i18n="footer.contactTitle">Contact Information</h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:john.doe@example.com" data-i18n="footer.email">john.doe@example.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+35812345678" data-i18n="footer.phone">+358 12 345 6789</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://www.johndoe.com" target="_blank" data-i18n="footer.website">www.johndoe.com</a>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="tech-stack">
+                    <h3 data-i18n="footer.techStackTitle">This Site's Tech Stack</h3>
+                    <p data-i18n="footer.techStackDescription">
+                        Built with HTML5, CSS3, and Vanilla JavaScript. Features include glassmorphism design, 
+                        responsive layout, theme switching, and bilingual support (EN/FI).
+                    </p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear">2023</span> <span data-i18n="footer.copyright">John Doe. All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/theme-switcher.js"></script>
+    <script src="assets/js/language-switcher.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/intersection-observer.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
