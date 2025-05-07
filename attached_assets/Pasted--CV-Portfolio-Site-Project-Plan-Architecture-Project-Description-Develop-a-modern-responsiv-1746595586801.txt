@@ -1,0 +1,114 @@
+🚀 CV Portfolio Site Project Plan & Architecture
+📝 Project Description
+
+Develop a modern, responsive single-page portfolio website showcasing professional credentials, skills, and contact information. Built exclusively with static web technologies (HTML5, CSS3, Vanilla JavaScript) for compatibility with GitHub Pages/Netlify hosting. 
+
+This will be basis for CV page and there should be sections for (add demo content for sections>:
+
+- Header with hamburger menu to go to correct section), use glass effects for panels
+- Name and slogun
+- Personal info (as sidebar)
+- skills
+- portfolio link: 
+- History:
+- footer, that has the contact infos (email, phone, website) and highlight description of the tech stack used in this page (like generated using Cursor.AI, html5 css..)
+
+Implements:
+▪︎ Bilingual UI: English/Finnish toggle with JSON translations
+▪︎ Theme System: Light/dark mode with CSS variables
+▪︎ Glassmorphism Design: Frosted glass effects (backdrop-filter)
+▪︎ TDD Approach: Jest unit tests for core functionality
+▪︎ WCAG 2.1: Accessible navigation and contrast ratios
+
+Tech Constraints: No build tools required. Uses only features supported in modern browsers (ES6 modules, CSS Grid/Flexbox).
+💡 Project Overview
+
+Single-page application targeting modern browsers. Key specifications:
+
+    Color schema: --content: #000000, --actions: #C0C0C0, --highlight: #FFD700
+
+    Mobile-first responsive layout
+
+    Intersection Observer API for scroll animations
+
+    GitHub Actions CI/CD pipeline
+
+[Remaining sections identical to original response...]
+
+This addition provides immediate context while maintaining the original detailed structure. The project description serves as executive summary, with the overview diving into technical specific
+
+🌀 Project Phases
+▪︎ Phase 1: Planning
+
+▸ Create architecture.md (file structure blueprint)
+▸ Define color schema: --content: #000000, --actions: #C0C0C0, --highlight: #FFD700
+▸ Plan translation JSON structure
+
+▪︎ Phase 2: Setup
+
+project-root/
+├── index.html
+├── assets/
+│   ├── css/styles.css
+│   ├── js/
+│   │   ├── app.js
+│   │   └── tests/ # Jest unit tests
+│   └── translations.json
+└── README.md
+
+▪︎ Phase 3: Core Development
+
+    HTML Skeleton
+
+xml
+<section id="hero" data-i18n-key="heroHeader">
+  <button id="themeToggle">🌓</button>
+  <button id="langToggle">EN/FI</button>
+</section>
+
+    CSS Glass Effects
+
+css
+.sidepanel {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+    JavaScript Features
+
+    Theme switcher using data-theme attributes
+
+    Language loader parsing translations.json
+
+▪︎ Phase 4: Testing
+
+▸ Jest tests for:
+
+javascript
+test('Language toggle switches content', () => {
+  switchLanguage('fi');
+  expect(document.getElementById('hero').dataset.i18nKey).toBe('heroHeader_fi');
+});
+
+▪︎ Phase 5: Deployment
+
+▸ Host on GitHub Pages with GitHub Actions CI/CD
+💡 Key Architecture Components
+▪︎ File Purposes
+File	Purpose
+index.html	Base structure with semantic HTML5
+styles.css	CSS variables + mobile-first media queries
+app.js	Handles theme/lang toggles + dynamic content
+translations.json	Key-value pairs for EN/FI text
+▪︎ Tech Constraints
+
+    No Node.js required (vanilla JS)
+
+    CSS custom properties for theming
+
+    Intersection Observer API for scroll effects
+
+🚀 Conclusion
+
+Deliverables: Static site with TDD compliance + full documentation. Expand [JS Testing] for sample test cases or [Glass Effects] for advanced CSS techniques. Ready for deployment in 72h with iterative development.
