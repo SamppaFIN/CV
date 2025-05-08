@@ -11,7 +11,7 @@
 .animated-char {
     display: inline-block;
     position: relative;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, color 0.5s ease;
 }
 
 /* Add a subtle hover effect for the entire animated text */
@@ -30,7 +30,48 @@
     }
 }
 
+/* ASCII art style for animated text */
+.header .animated-text .animated-char {
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Larger ASCII style for hero section */
+.hero .animated-text .animated-char {
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Shimmer effect on hover */
+.animated-text:hover {
+    background: linear-gradient(90deg, 
+        rgba(255,255,255,0) 0%, 
+        rgba(255,255,255,0.2) 50%, 
+        rgba(255,255,255,0) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 /* Make sure animated characters remain visible in dark mode */
 [data-theme="dark"] .animated-char {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+/* Custom styles for Sami's name with special character */
+.animated-char:nth-last-child(3) {
+    /* Special styling for the 'ä' character */
+    font-weight: 700;
 }

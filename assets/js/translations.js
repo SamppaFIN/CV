@@ -98,10 +98,10 @@ const translations = {
         "nav.contact": "Yhteystiedot",
         
         // Names
-        "name": "John Doe",
+        "name": "Sami Räisänen",
         
         // Hero Section
-        "hero.name": "John Doe",
+        "hero.name": "Sami Räisänen",
         "hero.slogan": "Innovatiivinen Web-kehittäjä & Suunnittelija",
         "hero.description": "Luon tyylikkäitä, responsiivisia ja interaktiivisia verkkoelämyksiä",
         "hero.cta": "Ota Yhteyttä",
@@ -110,7 +110,7 @@ const translations = {
         "sidebar.personalInfo": "Henkilötiedot",
         "sidebar.birthdate": "1. tammikuuta 1990",
         "sidebar.location": "Helsinki, Suomi",
-        "sidebar.email": "john.doe@example.com",
+        "sidebar.email": "sami.raisanen@example.com",
         "sidebar.phone": "+358 12 345 6789",
         "sidebar.languages": "Kielet",
         "sidebar.english": "Englanti",
@@ -166,12 +166,12 @@ const translations = {
         
         // Footer
         "footer.contactTitle": "Yhteystiedot",
-        "footer.email": "john.doe@example.com",
+        "footer.email": "sami.raisanen@example.com",
         "footer.phone": "+358 12 345 6789",
-        "footer.website": "www.johndoe.com",
+        "footer.website": "www.samiraisanen.com",
         "footer.techStackTitle": "Tämän Sivuston Teknologiat",
         "footer.techStackDescription": "Rakennettu HTML5:llä, CSS3:lla ja Vanilla JavaScriptillä. Ominaisuuksiin kuuluvat lasimorfismi-suunnittelu, responsiivinen asettelu, teeman vaihto ja kaksikielinen tuki (EN/FI).",
-        "footer.copyright": "John Doe. Kaikki oikeudet pidätetään."
+        "footer.copyright": "Sami Räisänen. Kaikki oikeudet pidätetään."
     }
 };
 

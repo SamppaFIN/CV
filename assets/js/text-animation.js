@@ -57,6 +57,11 @@
                 const randomIndex = Math.floor(Math.random() * chars.length);
                 const charSpan = chars[randomIndex];
                 
+                // Skip spaces and special characters
+                if (charSpan.textContent.trim() === '' || charSpan.textContent === 'ä') {
+                    continue;
+                }
+                
                 // Randomly decide to change case or color or both
                 const changeType = Math.floor(Math.random() * 3);
                 
@@ -77,13 +82,14 @@
                     // Add a subtle transition for smooth color change
                     charSpan.style.transition = 'color 0.5s ease';
                     
-                    // Reset color after a short delay
+                    // Reset color after a short delay (vary between 1-3 seconds for more randomness)
+                    const resetDelay = 1000 + Math.random() * 2000;
                     setTimeout(() => {
                         charSpan.style.color = '';
-                    }, 2000);
+                    }, resetDelay);
                 }
             }
-        }, 200); // Change every 200ms for a dynamic but not too distracting effect
+        }, 200 + Math.random() * 300); // Slightly randomize the interval for a more natural effect
     }
     
 })();
