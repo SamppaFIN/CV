@@ -18,16 +18,16 @@ const translations = {
         
         // Hero Section
         "hero.name": "Sami Räisänen",
-        "hero.slogan": "AI bot army commander",
+        "hero.slogan": "Forest Coder, AI bot army commander",
         "hero.description": "Let's tackle your IT problems with AI",
         "hero.cta": "Get In Touch",
         
         // Sidebar Section
         "sidebar.personalInfo": "Personal Information",
         "sidebar.birthdate": "January 1, 1990",
-        "sidebar.location": "Helsinki, Finland",
-        "sidebar.email": "sami.raisanen@example.com",
-        "sidebar.phone": "+358 12 345 6789",
+        "sidebar.location": "Tampere, Finland",
+        "sidebar.email": "infiniteinsamity@proton.me",
+        "sidebar.phone": "+358 40 6871036",
         "sidebar.languages": "Languages",
         "sidebar.english": "English",
         "sidebar.finnish": "Finnish",
@@ -40,8 +40,8 @@ const translations = {
         
         // About Section
         "about.title": "About Me",
-        "about.description": "I am a passionate web developer with over 5 years of experience creating beautiful, responsive and user-friendly websites. My approach combines technical expertise with creative problem-solving to deliver exceptional digital experiences.",
-        "about.description2": "With a background in both front-end and back-end development, I enjoy taking on complex challenges and turning them into elegant solutions. I'm constantly learning and exploring new technologies to stay at the forefront of web development.",
+        "about.description": "With 30 years of coding experience, I've witnessed the evolution of technology from 8-bit computers to today's cloud-based, AI-powered systems.",
+        "about.description2": "If you've ever struggled with an unusable program, experienced a crash during a critical save, or stared confused at an incomprehensible error message - I might have been somewhat to blame. My apologies... or not really! Those were my learning years! Now I have an army of Guru bots helping me create software exactly as I've always envisioned.",
         
         // Skills Section
         "skills.title": "Skills",
@@ -52,12 +52,12 @@ const translations = {
         // Portfolio Section
         "portfolio.title": "Portfolio",
         "portfolio.viewProject": "View Project",
-        "portfolio.project1.title": "E-commerce Platform",
-        "portfolio.project1.description": "A full-featured e-commerce solution with responsive design, payment integration and inventory management.",
-        "portfolio.project2.title": "Travel Blog",
-        "portfolio.project2.description": "A modern travel blog with interactive maps, photo galleries and multilingual support.",
-        "portfolio.project3.title": "Task Management App",
-        "portfolio.project3.description": "A productivity application with drag-and-drop interface, notifications and collaborative features.",
+        "portfolio.project1.title": "Portfolio Website",
+        "portfolio.project1.description": "My portfolio website at www.infiniteinsamity.com, which lists all the projects I've experimented with in the past few months.",
+        "portfolio.project2.title": "Angelic Voices",
+        "portfolio.project2.description": "A hobby project exploring frequency theories at https://angelic-waves-raisanensami.replit.app/",
+        "portfolio.project3.title": "Merge Master",
+        "portfolio.project3.description": "A game created in one hour with my 8-year-old son at https://merge-master-raisanensami.replit.app/",
         
         // History Section
         "history.title": "Work Experience",
@@ -82,9 +82,9 @@ const translations = {
         
         // Footer
         "footer.contactTitle": "Contact Information",
-        "footer.email": "sami.raisanen@example.com",
-        "footer.phone": "+358 12 345 6789",
-        "footer.website": "www.samiraisanen.com",
+        "footer.email": "infiniteinsamity@proton.me",
+        "footer.phone": "+358 40 6871036",
+        "footer.website": "www.infiniteinsamity.com",
         "footer.techStackTitle": "This Site's Tech Stack",
         "footer.techStackDescription": "Built with HTML5, CSS3, and Vanilla JavaScript. Features include glassmorphism design, responsive layout, theme switching, and bilingual support (EN/FI).",
         "footer.copyright": "Sami Räisänen. All rights reserved."
@@ -102,16 +102,16 @@ const translations = {
         
         // Hero Section
         "hero.name": "Sami Räisänen",
-        "hero.slogan": "AI botti armeijan komentaja",
+        "hero.slogan": "Metsäkoodari, botti armeijan komentaja",
         "hero.description": "Taklataan IT ongelmasi AI:n avulla",
         "hero.cta": "Ota Yhteyttä",
         
         // Sidebar Section
         "sidebar.personalInfo": "Henkilötiedot",
         "sidebar.birthdate": "1. tammikuuta 1990",
-        "sidebar.location": "Helsinki, Suomi",
-        "sidebar.email": "sami.raisanen@example.com",
-        "sidebar.phone": "+358 12 345 6789",
+        "sidebar.location": "Tampere, Suomi",
+        "sidebar.email": "infiniteinsamity@proton.me",
+        "sidebar.phone": "+358 40 6871036",
         "sidebar.languages": "Kielet",
         "sidebar.english": "Englanti",
         "sidebar.finnish": "Suomi",
@@ -124,8 +124,8 @@ const translations = {
         
         // About Section
         "about.title": "Tietoa Minusta",
-        "about.description": "Olen intohimoinen web-kehittäjä, jolla on yli 5 vuoden kokemus kauniiden, responsiivisten ja käyttäjäystävällisten verkkosivustojen luomisesta. Lähestymistapani yhdistää teknisen asiantuntemuksen luovaan ongelmanratkaisuun poikkeuksellisten digitaalisten kokemusten tuottamiseksi.",
-        "about.description2": "Taustani sekä front-end- että back-end-kehityksessä auttaa minua ottamaan vastaan monimutkaisia haasteita ja muuttamaan ne tyylikkäiksi ratkaisuiksi. Opiskelen ja tutkin jatkuvasti uusia teknologioita pysyäkseni web-kehityksen eturintamassa.",
+        "about.description": "30 vuoden koodauskokemuksella olen todistanut teknologian kehitystä 8-bittisten tietokoneiden ajoista nykypäivän pilviperustaisiin, tekoälyllä toimiviin järjestelmiin.",
+        "about.description2": "Jos olet koskaan kamppaillut käyttökelvottoman ohjelman kanssa, kokenut kaatumisen kriittisen tallennuksen aikana tai tuijottanut ymmälläsi käsittämätöntä virheilmoitusta – saatoin olla jossain määrin syypää siihen. Pahoitteluni... tai ei oikeastaan! Ne olivat oppivuosiani! Nyt minulla on käytössäni armeijallinen Guru-botteja, jotka auttavat luomaan ohjelmistoja juuri niin kuin olen aina kuvitellut.",
         
         // Skills Section
         "skills.title": "Taidot",
@@ -136,12 +136,12 @@ const translations = {
         // Portfolio Section
         "portfolio.title": "Portfolio",
         "portfolio.viewProject": "Katso Projekti",
-        "portfolio.project1.title": "Verkkokauppa-alusta",
-        "portfolio.project1.description": "Täysiominaisuuksinen verkkokaupparatkaisu responsiivisella suunnittelulla, maksujärjestelmäintegraatioilla ja varastonhallinnalla.",
-        "portfolio.project2.title": "Matkablogi",
-        "portfolio.project2.description": "Moderni matkablogi interaktiivisilla kartoilla, kuvagallerioilla ja monikielisellä tuella.",
-        "portfolio.project3.title": "Tehtävienhallintasovellus",
-        "portfolio.project3.description": "Tuottavuussovellus, jossa on vedä ja pudota -käyttöliittymä, ilmoitukset ja yhteistyöominaisuudet.",
+        "portfolio.project1.title": "Portfolio Sivusto",
+        "portfolio.project1.description": "Portfolio sivuni www.infiniteinsamity.com, listaa projektini mitä olen parissa kuukaudessa testaillut.",
+        "portfolio.project2.title": "Angelic Voices",
+        "portfolio.project2.description": "Harraste projekti tutkimaan frekvenssiteorioita: https://angelic-waves-raisanensami.replit.app/",
+        "portfolio.project3.title": "Merge Master",
+        "portfolio.project3.description": "Peli minkä loimme yhdessä 8-vuotiaan poikani kanssa tunnissa: https://merge-master-raisanensami.replit.app/",
         
         // History Section
         "history.title": "Työkokemus",
@@ -166,9 +166,9 @@ const translations = {
         
         // Footer
         "footer.contactTitle": "Yhteystiedot",
-        "footer.email": "sami.raisanen@example.com",
-        "footer.phone": "+358 12 345 6789",
-        "footer.website": "www.samiraisanen.com",
+        "footer.email": "infiniteinsamity@proton.me",
+        "footer.phone": "+358 40 6871036",
+        "footer.website": "www.infiniteinsamity.com",
         "footer.techStackTitle": "Tämän Sivuston Teknologiat",
         "footer.techStackDescription": "Rakennettu HTML5:llä, CSS3:lla ja Vanilla JavaScriptillä. Ominaisuuksiin kuuluvat lasimorfismi-suunnittelu, responsiivinen asettelu, teeman vaihto ja kaksikielinen tuki (EN/FI).",
         "footer.copyright": "Sami Räisänen. Kaikki oikeudet pidätetään."
