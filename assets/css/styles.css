@@ -815,6 +815,7 @@ a:focus, button:focus {
     }
 }
 
+/* Experience categories layout */
 .experience-categories {
     display: grid;
     gap: 2rem;
@@ -822,30 +823,20 @@ a:focus, button:focus {
 }
 
 .category {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
     border-radius: 1rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--glass-shadow);
+    transition: all var(--transition-speed);
 }
 
 .category h3 {
-    color: var(--primary-color);
+    color: var(--highlight);
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
-}
-
-.customer-list {
-    list-style: none;
-    padding: 0;
-}
-
-.customer-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.customer-list li:last-child {
-    border-bottom: none;
 }
 
 .tech-categories {
@@ -854,7 +845,7 @@ a:focus, button:focus {
 }
 
 .tech-category h4 {
-    color: var(--accent-color);
+    color: var(--highlight);
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -872,7 +863,7 @@ a:focus, button:focus {
 
 .tech-category li::before {
     content: "•";
-    color: var(--accent-color);
+    color: var(--highlight);
     margin-right: 0.5rem;
 }
 
@@ -891,5 +882,6 @@ a:focus, button:focus {
     
     .category {
         padding: 2rem;
+        height: 100%;
     }
 }

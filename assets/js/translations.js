@@ -26,7 +26,7 @@ const translations = {
         "sidebar.personalInfo": "Personal Information",
         "sidebar.location": "Tampere, Finland",
         "sidebar.email": "infiniteinsamity@proton.me",
-        "sidebar.phone": "+358 40 6871036",
+        "sidebar.phone": "Contact me on WhatsApp",
         "sidebar.languages": "Languages",
         "sidebar.english": "English",
         "sidebar.finnish": "Finnish",
@@ -90,11 +90,13 @@ const translations = {
         // Footer
         "footer.contactTitle": "Contact Information",
         "footer.email": "infiniteinsamity@proton.me",
-        "footer.phone": "+358 40 6871036",
+        "footer.phone": "Contact me on WhatsApp",
         "footer.website": "infiniteinsamity.com",
         "footer.techStackTitle": "This Site's Tech Stack",
         "footer.techStackDescription": "Built with HTML5, CSS3, and Vanilla JavaScript. Features include glassmorphism design, responsive layout, theme switching, and bilingual support (EN/FI).",
-        "footer.copyright": "Sami Räisänen. All rights reserved."
+        "footer.copyright": "Sami Räisänen. All rights reserved.",
+        "footer.techStackAI": "AI Stack",
+        "footer.techStackAIDescription": "OpenAI, Cursor, Replit, Perplexity, Gemini"
     },
     fi: {
         // Navigation
@@ -115,9 +117,9 @@ const translations = {
         
         // Sidebar Section
         "sidebar.personalInfo": "Henkilötiedot",
-        "sidebar.location": "Tampere, Suomi",
+        "sidebar.location": "Tampere, Finland",
         "sidebar.email": "infiniteinsamity@proton.me",
-        "sidebar.phone": "+358 40 6871036",
+        "sidebar.phone": "Ota yhteyttä WhatsAppilla",
         "sidebar.languages": "Kielet",
         "sidebar.english": "Englanti",
         "sidebar.finnish": "Suomi",
@@ -144,9 +146,9 @@ const translations = {
         "portfolio.project1.title": "Portfolio Sivusto",
         "portfolio.project1.description": "Portfolio sivuni infiniteinsamity.com, listaa projektini mitä olen parissa kuukaudessa testaillut.",
         "portfolio.project2.title": "Angelic Voices",
-        "portfolio.project2.description": "Harraste projekti tutkimaan frekvenssiteorioita: https://angelic-waves-raisanensami.replit.app/",
+        "portfolio.project2.description": "Harraste projekti tutkimaan frekvenssiteorioita",
         "portfolio.project3.title": "Merge Master",
-        "portfolio.project3.description": "Peli minkä loimme yhdessä 8-vuotiaan poikani kanssa tunnissa: https://merge-master-raisanensami.replit.app/",
+        "portfolio.project3.description": "Peli minkä loimme yhdessä 8-vuotiaan poikani kanssa tunnissa",
         
         // History Section
         "history.title": "Kokemus & Teknologiat",
@@ -181,11 +183,13 @@ const translations = {
         // Footer
         "footer.contactTitle": "Yhteystiedot",
         "footer.email": "infiniteinsamity@proton.me",
-        "footer.phone": "+358 40 6871036",
+        "footer.phone": "Ota yhteyttä WhatsAppilla",
         "footer.website": "infiniteinsamity.com",
         "footer.techStackTitle": "Tämän Sivuston Teknologiat",
         "footer.techStackDescription": "Rakennettu HTML5:llä, CSS3:lla ja Vanilla JavaScriptillä. Ominaisuuksiin kuuluvat lasimorfismi-suunnittelu, responsiivinen asettelu, teeman vaihto ja kaksikielinen tuki (EN/FI).",
-        "footer.copyright": "Sami Räisänen. Kaikki oikeudet pidätetään."
+        "footer.copyright": "Sami Räisänen. Kaikki oikeudet pidätetään.",
+        "footer.techStackAI": "AI Stack",
+        "footer.techStackAIDescription": "OpenAI, Cursor, Replit, Perplexity, Gemini"
     }
 };
 
