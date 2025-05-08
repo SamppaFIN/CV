@@ -1,0 +1,36 @@
+/* Text Animation Styles */
+
+/* Container for animated text */
+.animated-text {
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+}
+
+/* Individual characters that will be animated */
+.animated-char {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* Add a subtle hover effect for the entire animated text */
+.animated-text:hover .animated-char {
+    animation: wave 0.5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+/* Define a subtle wave animation for when hovering */
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Make sure animated characters remain visible in dark mode */
+[data-theme="dark"] .animated-char {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
