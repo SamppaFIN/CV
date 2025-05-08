@@ -1,0 +1,120 @@
+/* Wave Animation for background effect
+   Simulating calming waves on a sunny beach */
+
+/* Background wave effect container */
+.wave-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* Light themed sunny beach waves */
+:root {
+    --wave-color-1: rgba(135, 206, 235, 0.1); /* Sky blue with low opacity */
+    --wave-color-2: rgba(240, 248, 255, 0.2); /* Alice blue with low opacity */
+    --wave-color-3: rgba(255, 223, 186, 0.15); /* Light sandy color */
+    --wave-color-4: rgba(173, 216, 230, 0.1); /* Light blue */
+}
+
+/* Dark themed waves */
+[data-theme="dark"] {
+    --wave-color-1: rgba(25, 25, 112, 0.15); /* Midnight blue with low opacity */
+    --wave-color-2: rgba(0, 0, 60, 0.2); /* Deep blue with low opacity */
+    --wave-color-3: rgba(70, 130, 180, 0.15); /* Steel blue with low opacity */
+    --wave-color-4: rgba(30, 60, 90, 0.1); /* Deep ocean blue */
+}
+
+/* Wave elements */
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    transition: background-color var(--transition-speed);
+}
+
+/* First wave - farthest */
+.wave-1 {
+    background: var(--wave-color-1);
+    border-radius: 40% 60%;
+    animation: wave-movement 20s linear infinite;
+    z-index: -4;
+}
+
+/* Second wave */
+.wave-2 {
+    background: var(--wave-color-2);
+    border-radius: 48% 52%;
+    animation: wave-movement 15s linear infinite;
+    animation-delay: -5s;
+    z-index: -3;
+}
+
+/* Third wave */
+.wave-3 {
+    background: var(--wave-color-3);
+    border-radius: 52% 48%;
+    animation: wave-movement 30s linear infinite;
+    animation-delay: -2s;
+    z-index: -2;
+}
+
+/* Fourth wave - closest */
+.wave-4 {
+    background: var(--wave-color-4);
+    border-radius: 45% 55%;
+    animation: wave-movement 25s linear infinite;
+    animation-delay: -10s;
+    z-index: -1;
+}
+
+/* Wave movement animation */
+@keyframes wave-movement {
+    0% {
+        transform: translateX(0) translateY(0) rotate(0);
+    }
+    50% {
+        transform: translateX(-25%) translateY(2%) rotate(3deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0) rotate(0);
+    }
+}
+
+/* Extra animation for subtle shimmer effect, like sun reflecting on water */
+.shimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        rgba(255, 255, 255, 0.03) 30%, 
+        rgba(255, 255, 255, 0.02) 50%, 
+        transparent 70%
+    );
+    background-size: 200% 200%;
+    animation: shimmer-effect 15s ease-in-out infinite;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes shimmer-effect {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}

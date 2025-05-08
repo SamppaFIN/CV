@@ -54,6 +54,7 @@ body {
     transition: background-color var(--transition-speed), color var(--transition-speed);
     min-height: 100vh;
     position: relative;
+    overflow-x: hidden; /* Prevent horizontal scroll from wave animations */
 }
 
 /* Container for consistent width */
@@ -235,7 +236,7 @@ a:focus, button:focus {
     justify-content: center;
     text-align: center;
     padding: 80px 0;
-    background-color: var(--bg-primary);
+    background-color: transparent; /* Changed to transparent to show wave animation */
     position: relative;
 }
 
