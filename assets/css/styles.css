@@ -799,3 +799,76 @@ a:focus, button:focus {
         color: black;
     }
 }
+
+.experience-categories {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.category {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.customer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.customer-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.customer-list li:last-child {
+    border-bottom: none;
+}
+
+.tech-categories {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.tech-category h4 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.tech-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-category li {
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.tech-category li::before {
+    content: "•";
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .tech-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .experience-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
