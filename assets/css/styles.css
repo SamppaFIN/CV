@@ -130,29 +130,28 @@ a:focus, button:focus {
     color: var(--highlight);
 }
 
+/* Toggle container and buttons */
 .toggle-container {
     display: flex;
     align-items: center;
+    gap: 1.5rem;  /* Increased spacing between buttons */
+    margin-right: 1rem;  /* Added margin from hamburger menu */
 }
 
 .toggle-container button {
     background: none;
     border: none;
     color: var(--text-primary);
-    font-size: 1.2rem;
+    font-size: 1.32rem;  /* Increased size by 10% from 1.2rem */
     cursor: pointer;
-    margin-left: 1rem;
     transition: color var(--transition-speed);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 44px;  /* Increased size by 10% from 40px */
+    height: 44px;  /* Increased size by 10% from 40px */
     border-radius: 50%;
-}
-
-.toggle-container button:hover {
-    color: var(--highlight);
+    padding: 0.8rem;
 }
 
 /* Hamburger Menu Styles */
@@ -200,6 +199,17 @@ a:focus, button:focus {
     transition: right var(--transition-speed);
     padding: 1rem;
     margin: 0 1rem;
+}
+
+/* Adjust the background opacity in both light and dark themes */
+[data-theme="light"] .mobile-menu {
+    background: rgba(255, 255, 255, 0.5);  /* Reduced opacity by 20% */
+    backdrop-filter: blur(var(--glass-blur));
+}
+
+[data-theme="dark"] .mobile-menu {
+    background: rgba(30, 30, 30, 0.5);  /* Reduced opacity by 20% */
+    backdrop-filter: blur(var(--glass-blur));
 }
 
 .mobile-menu.active {
