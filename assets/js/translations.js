@@ -59,15 +59,15 @@ const translations = {
         
         // History Section
         "history.title": "Experience & Tech Stack",
-        "history.job1.title": "Senior Frontend Developer",
-        "history.job1.company": "Tech Innovations Ltd",
-        "history.job1.period": "2020 - Present",
-        "history.job2.title": "Web Developer",
-        "history.job2.company": "Digital Solutions Inc",
-        "history.job2.period": "2017 - 2020",
-        "history.job3.title": "Junior Developer",
-        "history.job3.company": "Webcraft Studio",
-        "history.job3.period": "2015 - 2017",
+        "history.job1.title": "Senior Developer",
+        "history.job1.company": "Solita",
+        "history.job1.period": "Recent",
+        "history.job2.title": "Developer",
+        "history.job2.company": "TeamUp, Symbio",
+        "history.job2.period": "Previous",
+        "history.job3.title": "Developer",
+        "history.job3.company": "Flander, E-Bros, University",
+        "history.job3.period": "Earlier Career",
         
         // Footer
         "footer.contactTitle": "Contact Information",
@@ -132,15 +132,15 @@ const translations = {
         
         // History Section
         "history.title": "Kokemus & Teknologiat",
-        "history.job1.title": "Senior Frontend Kehittäjä",
-        "history.job1.company": "Tech Innovations Oy",
-        "history.job1.period": "2020 - Nykyinen",
-        "history.job2.title": "Web Kehittäjä",
-        "history.job2.company": "Digital Solutions Oy",
-        "history.job2.period": "2017 - 2020",
-        "history.job3.title": "Junior Kehittäjä",
-        "history.job3.company": "Webcraft Studio",
-        "history.job3.period": "2015 - 2017",
+        "history.job1.title": "Senior Kehittäjä",
+        "history.job1.company": "Solita",
+        "history.job1.period": "Viimeisimmät",
+        "history.job2.title": "Kehittäjä",
+        "history.job2.company": "TeamUp, Symbio",
+        "history.job2.period": "Aiemmat",
+        "history.job3.title": "Kehittäjä",
+        "history.job3.company": "Flander, E-Bros, Yliopisto",
+        "history.job3.period": "Aiempi ura",
         
         // Footer
         "footer.contactTitle": "Yhteystiedot",
