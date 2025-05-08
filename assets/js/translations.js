@@ -14,10 +14,10 @@ const translations = {
         "nav.contact": "Contact",
         
         // Names
-        "name": "John Doe",
+        "name": "Sami Räisänen",
         
         // Hero Section
-        "hero.name": "John Doe",
+        "hero.name": "Sami Räisänen",
         "hero.slogan": "Innovative Web Developer & Designer",
         "hero.description": "Creating elegant, responsive and interactive web experiences",
         "hero.cta": "Get In Touch",
@@ -26,7 +26,7 @@ const translations = {
         "sidebar.personalInfo": "Personal Information",
         "sidebar.birthdate": "January 1, 1990",
         "sidebar.location": "Helsinki, Finland",
-        "sidebar.email": "john.doe@example.com",
+        "sidebar.email": "sami.raisanen@example.com",
         "sidebar.phone": "+358 12 345 6789",
         "sidebar.languages": "Languages",
         "sidebar.english": "English",
@@ -82,12 +82,12 @@ const translations = {
         
         // Footer
         "footer.contactTitle": "Contact Information",
-        "footer.email": "john.doe@example.com",
+        "footer.email": "sami.raisanen@example.com",
         "footer.phone": "+358 12 345 6789",
-        "footer.website": "www.johndoe.com",
+        "footer.website": "www.samiraisanen.com",
         "footer.techStackTitle": "This Site's Tech Stack",
         "footer.techStackDescription": "Built with HTML5, CSS3, and Vanilla JavaScript. Features include glassmorphism design, responsive layout, theme switching, and bilingual support (EN/FI).",
-        "footer.copyright": "John Doe. All rights reserved."
+        "footer.copyright": "Sami Räisänen. All rights reserved."
     },
     fi: {
         // Navigation
