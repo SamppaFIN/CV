@@ -6,8 +6,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
     overflow: hidden;
 }
@@ -31,12 +31,13 @@
 /* Wave elements */
 .wave {
     position: absolute;
-    width: 200%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
+    width: 300%;
+    height: 150%;
+    bottom: -25%;
+    left: -100%;
     opacity: 0.8;
     transition: background-color var(--transition-speed);
+    transform-origin: center bottom;
 }
 
 /* First wave - farthest */
@@ -80,10 +81,10 @@
         transform: translateX(0) translateY(0) rotate(0);
     }
     50% {
-        transform: translateX(-25%) translateY(2%) rotate(3deg);
+        transform: translateX(-15%) translateY(1%) rotate(2deg);
     }
     100% {
-        transform: translateX(-50%) translateY(0) rotate(0);
+        transform: translateX(-30%) translateY(0) rotate(0);
     }
 }
 
@@ -92,8 +93,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(
         45deg, 
         transparent, 

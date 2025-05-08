@@ -53,21 +53,39 @@ const translations = {
         "portfolio.project1.title": "Portfolio Website",
         "portfolio.project1.description": "My portfolio website at infiniteinsamity.com, which lists all the projects I've experimented with in the past few months.",
         "portfolio.project2.title": "Angelic Voices",
-        "portfolio.project2.description": "A hobby project exploring frequency theories at https://angelic-waves-raisanensami.replit.app/",
+        "portfolio.project2.description": "A hobby project exploring frequency theories accross history, culture, music and more",
         "portfolio.project3.title": "Merge Master",
-        "portfolio.project3.description": "A game created in one hour with my 8-year-old son at https://merge-master-raisanensami.replit.app/",
+        "portfolio.project3.description": "A game created in one hour with my 8-year-old son in few hours",
         
         // History Section
         "history.title": "Experience & Tech Stack",
         "history.job1.title": "Senior Developer",
         "history.job1.company": "Solita",
-        "history.job1.period": "Recent",
+        "history.job1.period": "2014 - 2025",
+        "history.job1.details": [
+            "Väylävirasto - Traffic Management System",
+            "Motoral - Automotive Solutions",
+            "RamiRent - Equipment Management",
+            "Kesko - Retail Solutions"
+        ],
         "history.job2.title": "Developer",
-        "history.job2.company": "TeamUp, Symbio",
-        "history.job2.period": "Previous",
+        "history.job2.company": "TeamUp",
+        "history.job2.period": "2012 - 2014",
+        "history.job2.details": [
+            "Lead Developer for Social Media Service Platform"
+        ],
         "history.job3.title": "Developer",
-        "history.job3.company": "Flander, E-Bros, University",
-        "history.job3.period": "Earlier Career",
+        "history.job3.company": "Flander/Symbio",
+        "history.job3.period": "2008 - 2012",
+        "history.job3.details": [
+            "Sandvik Automine UI Development"
+        ],
+        "history.job4.title": "Developer",
+        "history.job4.company": "E-Bros",
+        "history.job4.period": "2000 - 2008",
+        "history.job4.details": [
+            "CRM System Development for GNT"
+        ],
         
         // Footer
         "footer.contactTitle": "Contact Information",
@@ -134,13 +152,31 @@ const translations = {
         "history.title": "Kokemus & Teknologiat",
         "history.job1.title": "Senior Kehittäjä",
         "history.job1.company": "Solita",
-        "history.job1.period": "Viimeisimmät",
+        "history.job1.period": "2014 - 2025",
+        "history.job1.details": [
+            "Väylävirasto - Liikenteenhallintajärjestelmä",
+            "Motoral - Autoalan ratkaisut",
+            "RamiRent - Kalustonhallinta",
+            "Kesko - Vähittäiskaupan ratkaisut"
+        ],
         "history.job2.title": "Kehittäjä",
-        "history.job2.company": "TeamUp, Symbio",
-        "history.job2.period": "Aiemmat",
+        "history.job2.company": "TeamUp",
+        "history.job2.period": "2012 - 2014",
+        "history.job2.details": [
+            "Pääkehittäjä sosiaalisen median palvelualustalle"
+        ],
         "history.job3.title": "Kehittäjä",
-        "history.job3.company": "Flander, E-Bros, Yliopisto",
-        "history.job3.period": "Aiempi ura",
+        "history.job3.company": "Flander/Symbio",
+        "history.job3.period": "2008 - 2012",
+        "history.job3.details": [
+            "Sandvik Automine käyttöliittymäkehitys"
+        ],
+        "history.job4.title": "Kehittäjä",
+        "history.job4.company": "E-Bros",
+        "history.job4.period": "2000 - 2008",
+        "history.job4.details": [
+            "GNT:n asiakkuudenhallintajärjestelmän kehitys"
+        ],
         
         // Footer
         "footer.contactTitle": "Yhteystiedot",
