@@ -18,8 +18,8 @@ const translations = {
         
         // Hero Section
         "hero.name": "Sami Räisänen",
-        "hero.slogan": "Innovative Web Developer & Designer",
-        "hero.description": "Creating elegant, responsive and interactive web experiences",
+        "hero.slogan": "AI bot army commander",
+        "hero.description": "Let's tackle your IT problems with AI",
         "hero.cta": "Get In Touch",
         
         // Sidebar Section
@@ -102,8 +102,8 @@ const translations = {
         
         // Hero Section
         "hero.name": "Sami Räisänen",
-        "hero.slogan": "Innovatiivinen Web-kehittäjä & Suunnittelija",
-        "hero.description": "Luon tyylikkäitä, responsiivisia ja interaktiivisia verkkoelämyksiä",
+        "hero.slogan": "AI botti armeijan komentaja",
+        "hero.description": "Taklataan IT ongelmasi AI:n avulla",
         "hero.cta": "Ota Yhteyttä",
         
         // Sidebar Section
